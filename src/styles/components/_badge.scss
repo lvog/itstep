@@ -1,0 +1,10 @@
+.badge {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: var(--badge-font-size);
+  line-height: var(--badge-line-height);
+  padding: var(--badge-padding);
+  color: var(--badge-color);
+  background: var(--badge-background);
+  border-radius: var(--badge-border-radius);
+}

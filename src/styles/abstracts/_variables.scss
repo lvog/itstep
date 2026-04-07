@@ -1,0 +1,67 @@
+$breakpoint-phone: 520px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-widescreen: 1200px;
+$breakpoint-fullscreen: 1600px;
+
+:root {
+  --color-black: #111217;
+  --color-white: #fff;
+  --color-light-gray: #f7f7f9;
+  --color-primary-text: #1d1d1d;
+  --color-secondary-text: #666666;
+  --color-light-purple: #e4dfff;
+  --color-purple: #7c59f2;
+  --color-light-blue: #eaf3fc;
+  --color-blue: #4850ec;
+  --color-green: #bef541;
+
+  --base-font-family: "Mulish", sans-serif;
+  --second-font-family: "Inter", sans-serif;
+  --base-font-size: 16px;
+  --base-line-height: 1.3888888;
+  --base-font-weight: 600;
+  --base-font-color: var(--color-secondary-text);
+  --base-margin-bottom: 15px;
+
+  --container-max-width: 1332px;
+  --container-padding: 0 16px;
+
+  --heading-font-family: var(--base-font-family);
+  --heading-line-height: 1.2;
+  --heading-font-weight: 600;
+  --h1-font-size: 40px;
+  --h2-font-size: 36px;
+  --h3-font-size: 28px;
+  --h4-font-size: 24px;
+  --h5-font-size: 20px;
+  --heading-color: var(--color-primary-text);
+
+  --link-color: var(--color-blue);
+  --link-hover-color: var(--color-purple);
+  --link-text-decoration: none;
+
+  --badge-font-size: 14px;
+  --badge-line-height: 1.4285714;
+  --badge-padding: 8px 16px;
+  --badge-color: varr(--color-primary-text);
+  --badge-background: var(--color-white);
+  --badge-border-radius: 18px;
+
+  --btn-font-family: var(--base-font-family);
+  --btn-font-size: 18px;
+  --btn-line-height: 1.222222;
+  --btn-padding: 14px 25px;
+  --btn-color: var(--color-white);
+  --btn-background: var(--color-blue);
+  --btn-border-radius: 12px;
+  --btn-hover-background: var(--color-purple);
+
+  --border-radius-sm: 16px;
+  --border-radius-md: 24px;
+  --border-radius-lg: 36px;
+  --border-radius-xl: 72px;
+
+  --base-transition-duration: 0.3s;
+  --base-transition-timing-function: ease-in-out;
+}

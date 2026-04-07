@@ -1,0 +1,27 @@
+@use "abstracts/variables" as v;
+@use "abstracts/mixins" as m;
+
+.btn {
+  @include m.transition(background);
+  min-width: 326px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: var(--btn-font-family);
+  font-size: var(--btn-font-size);
+  line-height: var(--btn-line-height);
+  text-align: center;
+  padding: var(--btn-padding);
+  color: var(--btn-color);
+  background: var(--btn-background);
+  border-radius: var(--btn-border-radius);
+  cursor: pointer;
+
+  @include m.minMediaQuery(v.$breakpoint-tablet) {
+    padding: 19px 25px;
+  }
+
+  @include m.hover {
+    color: var(--btn-color);
+    background: var(--btn-hover-background);
+  }
+}

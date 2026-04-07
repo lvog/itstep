@@ -1,0 +1,21 @@
+@use "abstracts/variables" as v;
+@use "abstracts/mixins" as m;
+
+.icon-arrow-down {
+  width: 29px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  color: var(--color-white);
+  background: var(--color-black);
+  border-radius: 50%;
+  overflow: hidden;
+
+  @include m.minMediaQuery(v.$breakpoint-tablet) {
+    width: 34px;
+    height: 34px;
+    font-size: 12px;
+  }
+}
