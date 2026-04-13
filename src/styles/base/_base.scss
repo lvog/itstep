@@ -25,7 +25,9 @@ body {
   }
 
   &.nav-active {
-    overflow: hidden;
+    @include m.maxMediaQuery(767px) {
+      overflow: hidden;
+    }
   }
 }
 
