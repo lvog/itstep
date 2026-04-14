@@ -25,7 +25,7 @@ body {
   }
 
   &.nav-active {
-    @include m.maxMediaQuery(767px) {
+    @include m.maxMediaQuery(1023px) {
       overflow: hidden;
     }
   }
